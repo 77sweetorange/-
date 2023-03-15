@@ -10,8 +10,6 @@
 
 遍历方式2：广度优先遍历（层次遍历）
 
-## 144 94 145 递归遍历
-
 ```
 # Definition for a binary tree node.
 class TreeNode:
@@ -20,6 +18,8 @@ class TreeNode:
         self.left = left
         self.right = right
 ```
+
+## 144 94 145 递归遍历
 
 debug: res为全局变量，放置在子函数外，否则会循环res = [] 
 
@@ -36,3 +36,21 @@ Step3 确定单层递归的逻辑（中左右、左中右、左右中）
 [TreeNode] 表示由多个TreeNode的节点组成的列表
 
 中序遍历需二刷
+
+# Day 15 （day15 - day25准备期末考试，每天以梳理思路为主，后期补coding + debug环节）
+
+## 102 层序遍历
+
+辅助数据结构：队列
+
+## 226 翻转二叉树
+
+指针交换而非数值交换
+
+单层递归的逻辑：前序遍历 —— 先交换左右孩子节点，然后反转左子树，反转右子树
+
+## 101 对称二叉树
+
+一个树的遍历顺序是左右中，一个树的遍历顺序是右左中
+
+镜像 比较二叉树的外侧是否对称（left.left = right.right） 以及 内侧是否对称（left.right = right.left）
