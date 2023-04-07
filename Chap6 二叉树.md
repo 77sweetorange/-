@@ -35,9 +35,9 @@ Step3 确定单层递归的逻辑（中左右、左中右、左右中）
 
 [TreeNode] 表示由多个TreeNode的节点组成的列表
 
-中序遍历需二刷
+加入列表的是数值node.val而不是节点node
 
-# Day 15 （day15 - day25准备期末考试，每天以梳理思路为主，后期补coding + debug环节）
+# Day 15
 
 ## 102 层序遍历
 
